@@ -11,7 +11,7 @@ export const ProductCard = ({ product }) => {
   const { id, name, price, image } = product;
 
   useEffect(() => {
-    const productInCart = cartList.find((item) => item.id == product.id);
+    const productInCart = cartList.find((item) => item.id === id);
 
     if (productInCart) {
       setIsInCart(true);

@@ -1,6 +1,6 @@
 import { useTitle } from "../hooks/useTitle";
 import { CartCard } from "../components";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 export const Cart = () => {
   useTitle("Cart");
